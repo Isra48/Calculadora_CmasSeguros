@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap");
+body {
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.card_Container {
+  background-color: #f2f2f2;
+  width: 50vw;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+.titulo_calculadora {
+  text-align: center;
+}
+
+.titulo_card {
+  font-weight: 300;
+  margin-bottom: -0.2em;
+}
+
+.input_lg {
+  width: 98%;
+  margin-top: 0.5em;
+}
+.input_sm {
+  width: 44%;
+  margin-top: 0.5em;
+}
+
+.dropdown_sm {
+  width: 47%;
+  margin-top: 0.5em;
+}
+
+.dropdown_lg {
+  width: 98%;
+  margin-top: 0.5em;
+}
+
+.card_columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date_card {
+  display: block;
+}
+.check_container {
+  display: block;
+  margin-top: 0.8em;
+}
+
+.btn_container {
+  margin-top: 1.5em;
+}
+
+.btn_check {
+  padding: 0.5em 1em 0.5em 1em;
+}
